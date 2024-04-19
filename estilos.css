@@ -8,6 +8,23 @@ header{
     height: 500px;
 }
 
+@media ( min-width:140px)
+{
+  .menu {
+    padding: 15px 15 35px 15px;
+    gap: 10px;
+    flex-direction: row;
+
+  }
+
+  main {
+    padding: 15px 15 35px 15px;
+    gap: 15px;
+    flex-direction: row;
+    
+}
+}
+
 .menu {
     width: 940px;
     position: relative;
@@ -26,6 +43,14 @@ h1 {
     top: 170px;
 
 }
+
+
+
+@media (max-width:800px)
+{
+
+}
+
 
 nav {
     position: absolute;
